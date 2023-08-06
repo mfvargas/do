@@ -10,7 +10,7 @@ Instalador del portal de ALA
   ubuntu-18-04-x64 \
   s-1vcpu-1gb \
   36105160 \
-  "ala, instalador" \
+  "ala,instalador" \
   "~/.ssh/crbio" \
   instalador \
   geoacademia.org
@@ -24,7 +24,7 @@ Servidor de datos del portal de ALA
   ubuntu-18-04-x64 \
   s-8vcpu-16gb \
   36105160 \
-  "ala, datos" \
+  "ala,datos" \
   "~/.ssh/crbio" \
   datos \
   geoacademia.org
@@ -38,7 +38,7 @@ Servidor CAS del portal de ALA
   ubuntu-18-04-x64 \
   s-8vcpu-16gb \
   36105160 \
-  "ala, cas" \
+  "ala,cas" \
   "~/.ssh/crbio" \
   cas \
   geoacademia.org
@@ -52,7 +52,7 @@ Servidor geoespacial del portal de ALA
   ubuntu-18-04-x64 \
   s-8vcpu-16gb \
   36105160 \
-  "ala, geoespacial" \
+  "ala,geoespacial" \
   "~/.ssh/crbio" \
   geoespacial \
   geoacademia.org
