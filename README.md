@@ -10,7 +10,7 @@ Instalador del portal de ALA
   ubuntu-18-04-x64 \
   s-1vcpu-1gb \
   36105160 \
-  "ala,instalador,geoacademia" \
+  "ala, instalador" \
   "~/.ssh/crbio" \
   instalador \
   geoacademia.org
@@ -24,8 +24,36 @@ Servidor de datos del portal de ALA
   ubuntu-18-04-x64 \
   s-8vcpu-16gb \
   36105160 \
-  "ala,datos,geoacademia" \
+  "ala, datos" \
   "~/.ssh/crbio" \
   datos \
+  geoacademia.org
+```
+
+Servidor CAS del portal de ALA
+```shell
+./create-droplet-dns-record.sh \
+  cas.geocademia.org \
+  nyc1 \
+  ubuntu-18-04-x64 \
+  s-8vcpu-16gb \
+  36105160 \
+  "ala, cas" \
+  "~/.ssh/crbio" \
+  cas \
+  geoacademia.org
+```
+
+Servidor geoespacial del portal de ALA
+```shell
+./create-droplet-dns-record.sh \
+  geoespacial.geocademia.org \
+  nyc1 \
+  ubuntu-18-04-x64 \
+  s-8vcpu-16gb \
+  36105160 \
+  "ala, geoespacial" \
+  "~/.ssh/crbio" \
+  geoespacial \
   geoacademia.org
 ```
